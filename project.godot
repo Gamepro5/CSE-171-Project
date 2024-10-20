@@ -13,7 +13,13 @@ config_version=5
 config/name="CSE-171 Project"
 run/main_scene="res://game.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
-config/icon="res://icon.svg"
+boot_splash/bg_color=Color(0.121569, 0.121569, 0.121569, 1)
+boot_splash/image="res://assets/icon.png"
+config/icon="res://assets/icon.png"
+
+[debug]
+
+gdscript/warnings/unused_parameter=0
 
 [display]
 
